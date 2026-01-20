@@ -34,10 +34,10 @@ import (
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	semconv "go.opentelemetry.io/otel/semconv/v1.30.0"
 
-	"github.com/XSAM/otelsql"
+	"github.com/lwc/otelsql"
 )
 
-const instrumentationName = "github.com/XSAM/otelsql/example/stdout"
+const instrumentationName = "github.com/lwc/otelsql/example/stdout"
 
 var serviceName = semconv.ServiceNameKey.String("otesql-example")
 

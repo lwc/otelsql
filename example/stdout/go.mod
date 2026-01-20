@@ -1,12 +1,12 @@
-module github.com/XSAM/otelsql/example/stdout
+module github.com/lwc/otelsql/example/stdout
 
 go 1.24.0
 
-replace github.com/XSAM/otelsql => ../../
+replace github.com/lwc/otelsql => ../../
 
 require (
-	github.com/XSAM/otelsql v0.39.0
 	github.com/go-sql-driver/mysql v1.9.1
+	github.com/lwc/otelsql v0.39.0
 	github.com/prometheus/client_golang v1.23.2
 	go.opentelemetry.io/otel v1.39.0
 	go.opentelemetry.io/otel/exporters/prometheus v0.61.0

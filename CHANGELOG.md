@@ -504,7 +504,7 @@ It contains instrumentation for trace and depends on OTel `v0.18.0`.
 [Go 1.24]: https://go.dev/doc/go1.24
 [Go 1.23]: https://go.dev/doc/go1.23
 
-[Unreleased]: https://github.com/XSAM/otelsql/compare/v0.41.0...HEAD
+[Unreleased]: https://github.com/lwc/otelsql/compare/v0.41.0...HEAD
 [0.41.0]: https://github.com/XSAM/otelsql/releases/tag/v0.41.0
 [0.40.0]: https://github.com/XSAM/otelsql/releases/tag/v0.40.0
 [0.39.0]: https://github.com/XSAM/otelsql/releases/tag/v0.39.0

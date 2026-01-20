@@ -22,7 +22,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 
-	internalsemconv "github.com/XSAM/otelsql/internal/semconv"
+	internalsemconv "github.com/lwc/otelsql/internal/semconv"
 )
 
 var (

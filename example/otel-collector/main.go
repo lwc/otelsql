@@ -38,10 +38,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/XSAM/otelsql"
+	"github.com/lwc/otelsql"
 )
 
-const instrumentationName = "github.com/XSAM/otelsql/example/otel-collector"
+const instrumentationName = "github.com/lwc/otelsql/example/otel-collector"
 
 var serviceName = semconv.ServiceNameKey.String("otesql-example")
 

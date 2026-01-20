@@ -35,7 +35,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"go.opentelemetry.io/otel/trace"
 
-	internalsemconv "github.com/XSAM/otelsql/internal/semconv"
+	internalsemconv "github.com/lwc/otelsql/internal/semconv"
 )
 
 func TestRecordSpanError(t *testing.T) {
@@ -299,7 +299,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -357,7 +357,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -416,7 +416,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -476,7 +476,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -540,7 +540,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -602,7 +602,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -664,7 +664,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -721,7 +721,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -819,7 +819,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -879,7 +879,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -979,7 +979,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{
@@ -1040,7 +1040,7 @@ func TestRecordMetric(t *testing.T) {
 				ScopeMetrics: []metricdata.ScopeMetrics{
 					{
 						Scope: instrumentation.Scope{
-							Name:    "github.com/XSAM/otelsql",
+							Name:    "github.com/lwc/otelsql",
 							Version: Version(),
 						},
 						Metrics: []metricdata.Metrics{

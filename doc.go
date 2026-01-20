@@ -16,4 +16,4 @@
 //
 // otelsql will trace every interface from database/sql/driver package
 // which has context except driver.Pinger.
-package otelsql // import "github.com/XSAM/otelsql"
+package otelsql // import "github.com/lwc/otelsql"

@@ -20,7 +20,7 @@ import (
 
 	semconv "go.opentelemetry.io/otel/semconv/v1.30.0"
 
-	"github.com/XSAM/otelsql"
+	"github.com/lwc/otelsql"
 )
 
 func init() {

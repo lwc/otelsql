@@ -117,7 +117,7 @@ func TestErrorTypeAttributes(t *testing.T) {
 			name: "custom error type",
 			err:  customError{msg: "test error"},
 			expected: []attribute.KeyValue{
-				semconv.ErrorTypeKey.String("github.com/XSAM/otelsql/internal/semconv.customError"),
+				semconv.ErrorTypeKey.String("github.com/lwc/otelsql/internal/semconv.customError"),
 			},
 		},
 		{

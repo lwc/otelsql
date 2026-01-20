@@ -24,11 +24,11 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 
-	internalsemconv "github.com/XSAM/otelsql/internal/semconv"
+	internalsemconv "github.com/lwc/otelsql/internal/semconv"
 )
 
 const (
-	instrumentationName = "github.com/XSAM/otelsql"
+	instrumentationName = "github.com/lwc/otelsql"
 )
 
 var (

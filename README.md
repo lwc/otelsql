@@ -1,9 +1,9 @@
 # otelsql
 
-[![ci](https://github.com/XSAM/otelsql/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/XSAM/otelsql/actions/workflows/ci.yaml)
-[![codecov](https://codecov.io/gh/XSAM/otelsql/branch/main/graph/badge.svg?token=21S08PK9K0)](https://codecov.io/gh/XSAM/otelsql)
-[![Go Report Card](https://goreportcard.com/badge/github.com/XSAM/otelsql)](https://goreportcard.com/report/github.com/XSAM/otelsql)
-[![Documentation](https://godoc.org/github.com/XSAM/otelsql?status.svg)](https://pkg.go.dev/mod/github.com/XSAM/otelsql)
+[![ci](https://github.com/lwc/otelsql/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/lwc/otelsql/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/lwc/otelsql/branch/main/graph/badge.svg?token=21S08PK9K0)](https://codecov.io/gh/lwc/otelsql)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lwc/otelsql)](https://goreportcard.com/report/github.com/lwc/otelsql)
+[![Documentation](https://godoc.org/github.com/lwc/otelsql?status.svg)](https://pkg.go.dev/mod/github.com/lwc/otelsql)
 
 It is an OpenTelemetry instrumentation for Golang `database/sql`, a port from https://github.com/open-telemetry/opentelemetry-go-contrib/pull/505.
 
@@ -12,7 +12,7 @@ It instruments traces and metrics.
 ## Install
 
 ```bash
-$ go get github.com/XSAM/otelsql
+$ go get github.com/lwc/otelsql
 ```
 
 ## Usage
@@ -43,9 +43,9 @@ defer func() {
 }()
 ```
 
-Check [Option](https://pkg.go.dev/github.com/XSAM/otelsql#Option) for more features like adding context propagation to SQL queries when enabling [`WithSQLCommenter`](https://pkg.go.dev/github.com/XSAM/otelsql#WithSQLCommenter).
+Check [Option](https://pkg.go.dev/github.com/lwc/otelsql#Option) for more features like adding context propagation to SQL queries when enabling [`WithSQLCommenter`](https://pkg.go.dev/github.com/lwc/otelsql#WithSQLCommenter).
 
-See [godoc](https://pkg.go.dev/mod/github.com/XSAM/otelsql) for details.
+See [godoc](https://pkg.go.dev/mod/github.com/lwc/otelsql) for details.
 
 ## Blog
 
@@ -66,9 +66,9 @@ Check the [CHANGELOG.md](CHANGELOG.md) for more details.
 
 ## Trace Instruments
 
-It creates spans on corresponding [methods](https://pkg.go.dev/github.com/XSAM/otelsql#Method).
+It creates spans on corresponding [methods](https://pkg.go.dev/github.com/lwc/otelsql#Method).
 
-Use [`SpanOptions`](https://pkg.go.dev/github.com/XSAM/otelsql#SpanOptions) to adjust creation of spans.
+Use [`SpanOptions`](https://pkg.go.dev/github.com/lwc/otelsql#SpanOptions) to adjust creation of spans.
 
 ### Trace Semantic Convention Stability
 

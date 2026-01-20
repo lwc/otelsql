@@ -1,4 +1,4 @@
-module github.com/XSAM/otelsql/internal/tools
+module github.com/lwc/otelsql/internal/tools
 
 go 1.24.0
 
